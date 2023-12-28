@@ -1,3 +1,3 @@
 # Zevi-Task
 
-### Live Url:  https://zevi-task-pi.vercel.app/
+### Live Url:  https://stirring-monstera-a1d351.netlify.app/
