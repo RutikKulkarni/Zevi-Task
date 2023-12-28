@@ -70,20 +70,3 @@
 .suggestion {
   cursor: pointer;
 }
-
-@media screen and (max-width: 1000px) {
-  .latest_products {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .latest_products {
-    grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-  }
-
-  .latest_trend img {
-    width: 100%;
-  }
-}
