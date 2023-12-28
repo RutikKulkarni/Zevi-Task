@@ -1,0 +1,44 @@
+.img_container {
+  position: relative;
+}
+
+.icon {
+  text-align: end;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.4rem;
+  font-size: 1.5rem;
+  z-index: 10;
+}
+
+.icon > * {
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+.product {
+  position: absolute;
+  bottom: 0.4rem;
+  padding: 0.7rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(135, 153, 255, 0.71);
+  color: white;
+  cursor: pointer;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.price {
+  text-decoration: line-through;
+  color: gray;
+  padding-right: 0.2rem;
+}

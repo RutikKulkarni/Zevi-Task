@@ -1,0 +1,38 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  gap: 0.5rem;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.navbar img {
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 60vw;
+  height: 7vh;
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border: 1px rgba($color: #040404, $alpha: 0.6);
+}
+
+.container .input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.container .icon {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: auto;
+}
